@@ -17,10 +17,10 @@ calls to sclang, returns responses to the websocket client
 
 Usage::
 
-    scjs = require('supercolliderjs');
+    scb = require('supercolliderjs-browser');
     app = express(),
     server = http.createServer(app),
-    scjs.listen(app, server);
+    scb.listen(app, server);
 
 In browser::
 

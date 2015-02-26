@@ -3,12 +3,15 @@ supercollider.js for web browsers
 
 Tools for communicating between remote javascript clients (primarily web browsers) and supercollider.js
 
+Work in progress.
+
 Initially this just supports websockets and the API quark. This was part of supercollider.js but I'm moving it into its own package.
 This reduces the dependencies and responsibilities of supercollider.js and will let this package focus on the browser and other remote javascript clients.
 
 SuperCollider is an environment and programming language for real time audio synthesis and algorithmic composition. It provides an interpreted object-oriented language which functions as a network client to a state of the art, realtime sound synthesis server.
 
 https://supercollider.github.io/
+
 
 Documentation
 -------------
